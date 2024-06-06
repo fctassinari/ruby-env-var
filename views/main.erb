@@ -11,7 +11,7 @@
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
-  <title>Check Decoder_Ring Variable</title>
+  <title>Check CICLOP Variable</title>
 </head>
 <body>
   <div class="page-header" align=center>
@@ -19,8 +19,8 @@
   </div>
 
   <div class="container" align=center>
-    <% if ENV['Decoder_Ring'] %>
-      <p>Decoder_Ring: <%= ENV['Decoder_Ring'] %></p>
+    <% if ENV['CICLOP'] %>
+      <p>CICLOP: <%= ENV['CICLOP'] %></p>
       <p style="color:green;">Success</p>
     <% else %>
       <p style="color:red;">Failed, please, check your configuration!</p>
